@@ -1,0 +1,5 @@
+*.gem
+.rvmrc
+Gemfile.lock
+doc/
+experimental/
