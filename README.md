@@ -70,7 +70,7 @@ Note, to find the gem installation directory:
 
     irb prompt> require 'sudoku_bardi'
     irb prompt> $".grep(/sudoku_bardi/)[0]
-    irb prompt> Sudoku::Solver.new.method(:each).source_location
+    irb prompt> SudokuBardi::Solver.new.method(:each).source_location
     irb prompt> exit
 
 ## License
